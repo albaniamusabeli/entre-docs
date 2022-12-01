@@ -1,0 +1,26 @@
+{
+  "name": "vitepress-docs",
+  "version": "1.0.0",
+  "description": "Documentación y apuntes de Frameworks y Librerías",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albaniamusabeli/entre-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albaniamusabeli/entre-docs/issues"
+  },
+  "homepage": "https://github.com/albaniamusabeli/entre-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.29"
+  }
+}
