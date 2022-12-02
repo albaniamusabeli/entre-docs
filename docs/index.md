@@ -2,19 +2,18 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: Entre Docs
+  text: Notas y Apuntes de Frameworks y Librerías
   image:
     src: /logo.png
-    alt: VitePress
+    alt: logo
   actions:
     - theme: brand
-      text: Get Started
+      text: Ver Apuntes
       link: /frameworks/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: Ver en GitHub
+      link: https://github.com/albaniamusabeli/entre-docs
 
 features:
   - icon: ⚡️
@@ -27,3 +26,9 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
 ---
+
+<style>
+    :root {
+        --vp-home-hero-name-color: orange;
+    }
+</style>

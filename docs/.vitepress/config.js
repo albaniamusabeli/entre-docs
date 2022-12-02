@@ -15,7 +15,8 @@ export default {
                     text: 'Angular',
                     collapsible: true,
                     items: [
-                        {text: 'Angular CLI', link: '/frameworks/angular-cli' }
+                        {text: 'Instalación', link: '/frameworks/instalacion-angular' },
+                        {text: 'Angular CLI', link: '/frameworks/angular-cli'}
                     ]
                 }
             ]
