@@ -30,7 +30,9 @@ export default {
                     items: [
                         { text: 'Instalación', link: '/docker/instalacion-docker' },
                         { text: 'Imágenes', link: '/docker/imagen' },
-                        { text: 'Contenedores', link: '/docker/contenedor' }
+                        { text: 'Contenedores', link: '/docker/contenedor' },
+                        { text: 'Compose', link: '/docker/compose' }
+
                     ]
                 }
             ],
