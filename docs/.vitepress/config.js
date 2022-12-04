@@ -5,8 +5,9 @@ export default {
     themeConfig: {
 
         nav: [
-            { text: 'Frameworks', link: '/frameworks/' },
             { text: 'Docker', link: '/docker/' },
+            { text: 'Frameworks', link: '/frameworks/' },
+            { text: 'Git/Github', link: '/git/'},
             { text: 'Nosotros', link: '/team' },
         ],
 
@@ -36,6 +37,18 @@ export default {
                     ]
                 }
             ],
+
+            '/git/': [
+                {
+                    text: 'Git',
+                    collapsible: true,
+                    items: [
+                        { text: 'Configuración', link: '/git/configuracion'},
+                        { text: 'Versionamiento', link: '/git/versionamiento'},
+
+                    ]
+                }
+            ]
         }
     }
 
