@@ -82,28 +82,67 @@ git checkout -- README.md
 q : para cerrar el historial
 :::
 
-```
+```bash
 git log
 ```
 
 ## Historial de Commits resumido
 
-```
+```bash
 git log --one line
 ```
 
-## Cambiar el título del último commit
+## Editar el título del último commit
 
-```
+```bash
 git commit --amend
 ```
 
-```
+```bash
 git commit --amend -m "Nuevo título del commit"
 ```
 
 ## Eliminar el último commit (manteniendo los cambios)
 
-```
+```bash
 git reset --soft HEAD^
 ```
+
+## Regresar al commit borrando los cambios realizados
+
+```bash
+git reset --mixed n°hash
+```
+
+## Regresar al commit y dejar los archivos como estaban en ese punto (del hash)
+
+```bash
+git reset --hard n°hash
+```
+
+## Ver el historial completo en orden cronológico
+
+```bash
+git reflog
+```
+
+## Renombrar archivo mediante git
+
+::: tip
+El archivo vuelve a su estado inicial para hacer add o commit
+:::
+
+```bash
+git mv nombre-archivo nuevo-nombre
+```
+
+## Eliminar un archivo mediante git
+
+::: tip
+Hacer un commit para registrar la eliminacion
+:::
+
+```bash
+git rm nombre-archivo
+```
+

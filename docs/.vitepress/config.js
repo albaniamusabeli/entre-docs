@@ -45,6 +45,7 @@ export default {
                     items: [
                         { text: 'Configuración', link: '/git/configuracion'},
                         { text: 'Versionamiento', link: '/git/versionamiento'},
+                        { text: 'Ramas', link: '/git/ramas'},
 
                     ]
                 }
