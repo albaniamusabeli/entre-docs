@@ -43,10 +43,19 @@ export default {
                     text: 'Git',
                     collapsible: true,
                     items: [
-                        { text: 'Configuración', link: '/git/configuracion'},
-                        { text: 'Versionamiento', link: '/git/versionamiento'},
-                        { text: 'Ramas', link: '/git/ramas'},
+                        { text: 'Configuración', link: '/git/configuracion' },
+                        { text: 'Versionamiento', link: '/git/versionamiento' },
+                        { text: 'Ramas', link: '/git/ramas' },
+                        { text: 'Stash', link: '/git/stash' },
+                        { text: 'Tags', link: '/git/tags' },
 
+                    ]
+                },
+                {
+                    text: 'GitHub',
+                    collapsible: true,
+                    items: [
+                        { text: 'Versionamiento Remoto', link:'/git/github' }
                     ]
                 }
             ]
