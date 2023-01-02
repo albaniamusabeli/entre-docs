@@ -19,7 +19,7 @@ git stash list
 ## Ver información más detallada del stash
 
 ```bash
-git stash list --stash
+git stash list --stat
 ```
 
 ## Hacer un merge de la rama falsa stash
@@ -36,15 +36,11 @@ git stash pop
 git stash drop n°Stash
 ```
 
-::: tip
-Borrar el stash más reciente:
+## Borrar el stash más reciente
 
 ```bash
 git stash drop
 ```
-
-:::
-
 
 ## Borrar los stash definitivamente
 
@@ -67,7 +63,7 @@ git stash apply 0
 ```
 :::
 
-## Ver qué archivos fueron cambiados en el stash
+## Ver archivos cambiados en el stash
 
 ```bash
 git stash show n°Stash

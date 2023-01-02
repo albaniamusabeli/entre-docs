@@ -47,25 +47,3 @@ git merge nuevaRama
 ```bash
 git branch -d nombreRama
 ```
-
-## Traer ramas remotas de Github al repositorio local
-
-```bash
-git branch -a
-```
-
-## Borrar una rama que está en Github
-
-::: tip
-Hacerlo desde la rama Master
-:::
-
-```bash
-git push origin :nombre-rama-remota
-```
-
-## Borrar el registro de ramas remotas (que fueron borradas desde Github)
-
-```bash
-git remote prune origin
-```
