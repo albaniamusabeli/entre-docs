@@ -1,4 +1,4 @@
-# Comandos Angular CLI
+# Instalación de Angular
 
 ## Instalar Angular global
 

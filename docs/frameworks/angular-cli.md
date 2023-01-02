@@ -1,4 +1,4 @@
-# Comandos para la instalación de Angular CLI
+# Comandos de Angular CLI
 
 ## Iniciar un proyecto
 
