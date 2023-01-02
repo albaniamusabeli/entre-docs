@@ -1,6 +1,6 @@
 # Comandos para manejo de contenedores
 
-::: info Ayuda
+::: tip Ayuda
 ```
 docker container --help
 ```
