@@ -6,6 +6,7 @@ export default {
 
         nav: [
             { text: 'Docker', link: '/docker/' },
+            { text: 'Node', link: '/node/' },
             { text: 'Frameworks', link: '/frameworks/' },
             { text: 'Git/Github', link: '/git/'},
             { text: 'Nosotros', link: '/team' },
@@ -33,6 +34,17 @@ export default {
                         { text: 'Imágenes', link: '/docker/imagen' },
                         { text: 'Contenedores', link: '/docker/contenedor' },
                         { text: 'Compose', link: '/docker/compose' }
+
+                    ]
+                }
+            ],
+            '/node/': [
+                {
+                    text: 'Node',
+                    collapsible: true,
+                    items: [
+                        { text: 'Instalación', link: '/node/instalacion' },
+
 
                     ]
                 }
