@@ -1,6 +1,6 @@
 # Comandos para manejo de imagenes
 
-## Bajar una imagen desde Docker Hub
+## Descargar una imagen desde Docker Hub
 * Default tag: latest (automático)
 ```bash
 docker pull nombre_imagen
@@ -20,14 +20,18 @@ docker pull nombre_imagen:tag
 docker build -t nombre_imagen:v1 .
 ```
 
-## Ver imágenes instaladas
+## Ver todas las imágenes
 ```bash
-docker images
+docker image ls
 ```
 
 ## Eliminar imagen
 ```bash
-docker image rm nombre_imagen/id
+docker image rm nombre_imagen
+```
+
+```bash
+docker image rm id_imagen
 ```
 
 

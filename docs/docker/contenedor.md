@@ -1,5 +1,11 @@
 # Comandos para manejo de contenedores
 
+::: info Ayuda
+```
+docker container --help
+```
+:::
+
 ## Crear un contenedor
 ::: info
 * --name: nombre del contenedor
@@ -8,36 +14,41 @@
 * --rm (Clean up): Al detener del contenedor este se borrará junto con los volúmenes que no tengan nombre.
 :::
 ```
-docker run --name nombre_contenedor -p port_pc:port_image -d nombre_imagen/id
+docker container run --name nombre_contenedor -p port_pc:port_image -d nombre_imagen/id
 ```
 
-## Activar contenedor
+## Iniciar un contenedor existente
 ::: info
 * Por defecto el comando start inicia un contenedor con -d (detach)
 * -i: para iniciar un contener con la consola activada
 :::
 ```
-docker start nombre_contenedor
+docker container start nombre_contenedor
 ```
 
 ## Ver contenedores activos
 ```
-docker ps
+docker container ls
 ```
 
 ## Ver todos los contenedores
 ```
-docker ps -a
+docker container ls -a
 ```
 
 ## Detener un contenedor
 ```
-docker stop nombre_contenedor
+docker container stop nombre_contenedor
 ```
 
 ## Borrar un/varios contenedor
 ```
-docker rm nombre_contenedor *nombre_contenedor
+docker container rm nombre_contenedor nombre_contenedor2
+```
+
+## Borrar todos los contenedores detenidos
+```
+docker container prune
 ```
 
 ## Borrar todos los contenedores, imágenes y volúmenes
