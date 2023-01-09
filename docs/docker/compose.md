@@ -1,6 +1,11 @@
 # Comandos para Docker Compose
 
-## Crear imagenes y contenedores
+::: tip
+El archivo debe llamarse *docker-compose.yml* obligatoriamente
+:::
+
+
+## Crear contenedores desde archivo docker-compose.yml
 ```
 docker compose up
 ```
@@ -15,7 +20,7 @@ docker compose stop
 docker compose start
 ```
 
-## Detener y eliminar contenedores, 
+## Detener y borrar contenedores desde archivo docker-compose.yml
 ::: info
 Elimina networks, volúmenes, e imágenes creadas por docker compose
 :::

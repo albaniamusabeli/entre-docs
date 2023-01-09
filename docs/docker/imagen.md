@@ -25,7 +25,7 @@ docker build -t nombre_imagen:v1 .
 docker image ls
 ```
 
-## Eliminar imagen
+## Borrar imagen
 ```bash
 docker image rm nombre_imagen
 ```
