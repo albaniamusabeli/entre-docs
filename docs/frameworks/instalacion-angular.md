@@ -2,22 +2,24 @@
 
 ## Instalar Angular global
 
-```
+```bash
 npm install -g @angular/cli
 ```
 
 ## Instalar Angular local
 
-```
+```bash
 npm init @angular nombre-app
 ```
 
 ## Servidor de Desarrollo
 
+* Global
 ```bash
-# Global
 ng serve -o
+```
 
-# Local
+* Local
+```bash
 npm run ng -- serve -o
 ```
